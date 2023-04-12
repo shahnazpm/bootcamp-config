@@ -24,6 +24,12 @@ bootstrap:
               - cdf-group: cdf:all:read
                 idp-source-id: 3ca42f5f-fb17-478d-b6a1-fbc225dbfbff
                 idp-source-name: bootcamp-16-test-all-read
+              - cdf-group: cdf:uc:001:oee:read
+                idp-source-id: 50b74723-2bb7-4aa2-a1f1-dc1a9742ace3
+                idp-source-name: bootcamp-16-test-uc-001-oee-read
+              - cdf-group: cdf:uc:001:oee:owner
+                idp-source-id: d09bb95a-3fc1-492f-9710-0871ffe76108
+                idp-source-name: bootcamp-16-test-uc-001-oee-owner
 
         - cdf-project: cdf-bootcamp-16-prod
           mappings:
@@ -36,6 +42,12 @@ bootstrap:
               - cdf-group: cdf:all:read
                 idp-source-id: c7c7ddcc-b4ac-4424-877b-2f78603bcb28
                 idp-source-name: bootcamp-16-test-all-read
+              - cdf-group: cdf:uc:001:oee:read
+                idp-source-id: c9f4b5a1-e7dd-4adf-8941-45a7184e6239
+                idp-source-name: bootcamp-16-prod-uc-001-oee-read
+              - cdf-group: cdf:uc:001:oee:owner
+                idp-source-id: a79e9cb9-883d-4eb8-8f24-160ce221c8d6
+                idp-source-name: bootcamp-16-prod-uc-001-oee-owner
 
     namespaces:
     # Typical config will have separate namespace by data source ("src") and use cases ("uc")
